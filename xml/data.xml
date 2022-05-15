@@ -2,6 +2,7 @@
 <places>
     <restaurants>
         <place>
+            <id>1</id>
             <name>
                 Балкон
             </name>
@@ -15,7 +16,7 @@
                 ТРЦ Галилео, ул. Бобруйская 6, Минск 220006
             </adress>
             <contacts>
-                <p>Kонтакты: 80447098888; <a class="s1" href="http://cafebalkon.by/">Сайт</a></p>
+                Kонтакты: 80447098888; http://cafebalkon.by/
             </contacts>
             <images>
                 <image>
@@ -44,6 +45,7 @@
             </reviews>
         </place>
         <place>
+            <id>2</id>
             <name>
                 Балкон
             </name>
@@ -57,7 +59,7 @@
                 ТРЦ Галилео, ул. Бобруйская 6, Минск 220006
             </adress>
             <contacts>
-                <p>Kонтакты: 80447098888; <a class="s1" href="http://cafebalkon.by/">Сайт</a></p>
+                Kонтакты: 80447098888; http://cafebalkon.by/
             </contacts>
             <images>
                 <image>
@@ -86,6 +88,7 @@
             </reviews>
         </place>
         <place>
+            <id>3</id>
             <name>
                 Балкон
             </name>
@@ -130,6 +133,7 @@
     </restaurants>
     <coffee_houses>
         <place>
+            <id>4</id>
             <name>
                 Балкон
             </name>
@@ -172,6 +176,7 @@
             </reviews>
         </place>
         <place>
+            <id>5</id>
             <name>
                 Балкон
             </name>
@@ -214,6 +219,7 @@
             </reviews>
         </place>
         <place>
+            <id>6</id>
             <name>
                 Балкон
             </name>
@@ -259,6 +265,7 @@
     </coffee_houses>
     <interesting_places>
         <place>
+            <id>7</id>
             <name>
                 Балкон
             </name>
@@ -301,6 +308,7 @@
             </reviews>
         </place>
         <place>
+            <id>8</id>
             <name>
                 Балкон
             </name>
@@ -343,6 +351,7 @@
             </reviews>
         </place>
         <place>
+            <id>9</id>
             <name>
                 Балкон
             </name>
