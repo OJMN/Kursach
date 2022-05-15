@@ -5,6 +5,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -44,6 +47,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -83,6 +89,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -124,6 +133,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -163,6 +175,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -202,6 +217,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -244,6 +262,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -283,6 +304,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -322,6 +346,9 @@
             <name>
                 Балкон
             </name>
+            <category>
+                Азиатская кухня
+            </category>
             <work_time>
                 пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
             </work_time>
@@ -357,6 +384,5 @@
                 </review>
             </reviews>
         </place>
-
     </interesting_places>
 </places>
