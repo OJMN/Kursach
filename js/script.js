@@ -13,13 +13,13 @@ $.get('https://raw.githubusercontent.com/OJMN/Kursach/master/xml/data.xml')
                     image = el.text()
                 }
             )
-            document.getElementById("items").innerHTML += '<div id="tem">'+field.find("category").text()+'</div>' +
-            '<img id="foto" src="'+image+'" />'+
-            '<div id="inf1">'+field.find("name").text()+'</div>'+
-            '<div id="inf1_1">'+
-              '<p>Время работы: '+field.find("work_time").text()+'</p>'+
-              '<p>Адрес: ТЦ «Караван», ул. Налибокская 1, Минск 220055</p>'+
-                + field.find("contacts").text()+'</div>'
+            document.getElementById("items").innerHTML += '<div class="item container"> <div class="tem">'+field.find("category").text()+'</div>' +
+            '<img class="restaurant_photo" src="'+image+'" />'+
+            '<div class="inf1"><a href="detail.html?id='+field.find("id").text()+'">'+field.find("name").text()+'<a/></div><br><br>'+
+            '<div class="inf1_1">'+
+              '<p>Время работы: '+field.find("work_time").text()+'</p><br>'+
+              '<p>Адрес: ТЦ «Караван», ул. Налибокская 1, Минск 220055</p><br>'+
+                + field.find("contacts").text()+'</div><div/>'
         }
     )
   })

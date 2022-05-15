@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css\slider.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />  
+    <link rel="stylesheet" href="css/style 1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <header id="kol" >
+        <div class="container">
+          <div id="logo">
+            <img src="img\logo.svg" alt="logo">
+          </div>
+          <h1 id="name">Вкусно кушать</h1>
+          <div id="search">
+            <form>
+              <input
+                class="search-area"
+                type="text"
+                placeholder="Искать здесь..."
+              />
+              <button class="search-btn" type="submit">Поиск</button>
+            </form>
+          </div>
+        </div>
+    </header>  
+    <h1 id="bodyname"></h1>
+    <div class="sim-slider">
+      <ul class="sim-slider-list">
+        <li><img src="screen.gif" alt="screen" /></li>
+        <!-- это экран -->
+        <li class="sim-slider-element">
+          <img id="img1" src="" alt="1" />
+        </li>
+        <li class="sim-slider-element">
+          <img id="img2" src="" alt="2" />
+        </li>
+        <li class="sim-slider-element">
+          <img id="img3" src="" alt="N" />
+        </li>
+      </ul>
+      <div class="sim-slider-arrow-left"></div>
+      <div class="sim-slider-arrow-right"></div>
+      <div class="sim-slider-dots"></div>
+    </div>
+    <div class="descriptions container">
+        <input type="radio" name="dsc" id="description"><input type="radio" name="dsc" id="adress"><input type="radio" name="dsc" id="reviews">
+        <div class="row">
+            <div class="col"><label for="description">Описание</label></div>
+            <div class="col"><label for="adress">Адрес и время работы</label></div>
+            <div class="col"><label for="reviews">Отзывы :)</label></div>
+        </div>
+        <div class="contents">
+            <div class="content">
+
+            </div>
+            <div class="content">
+
+            </div>
+            <div class="content">
+                
+            </div>
+        </div>
+
+    </div>
+    <footer id="kol">
+      <span>Контакты</span>
+      <span>соц сети</span>
+      <span>о нас</span>
+      <span>новости</span>
+    </footer>
+    
+    <script src="js\slider.js"></script>
+    <script src="js/detail_info.js"></script>
+  </body>
+</html>

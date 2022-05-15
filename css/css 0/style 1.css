@@ -109,3 +109,10 @@ div {
   text-decoration: none;
   color: #111113;
 }
+
+.restaurant_photo{
+  height: 50px!important;
+}
+.item{
+  background-color: black;
+}
