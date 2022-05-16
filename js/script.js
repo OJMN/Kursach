@@ -3,7 +3,10 @@ $.get('https://raw.githubusercontent.com/OJMN/Kursach/master/xml/data.xml')
   .done(function(data){
     // parse the xml
     data = $.parseXML(data);
-    $(data).find("restaurants").find("place").each(
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const itemid = urlParams.get('filter')
+    $(data).find(itemid).find("place").each(
         function(index, element){
             let field = $(element)
             let image

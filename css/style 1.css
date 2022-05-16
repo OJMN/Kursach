@@ -24,18 +24,18 @@ div {
 }
 #logo img{
   margin-top: 10%;
-  height: 40px;
+  height: 40px!important;
+  width: 40px!important;
   border-radius: 5px;
 }
 
 #name {
   display: inline-block;
-  float: left;
   background-color: #EBE6E8;
   color: #111113;
   height: 30px;
   margin-top: 15px;
-  margin-left: 37%;
+  margin-left: 41%;
   padding-top: 3px;
   border-radius: 5px;
   padding-left: 30px;
@@ -45,7 +45,7 @@ div {
 
 #search {
   float: right;
-  margin-left: 10%;
+  margin-right: -5%;
 }
 .search-area{
   height: 30px;
@@ -203,4 +203,41 @@ footer{
 footer span{
   
   margin-left: 15%;
+}
+
+@media (max-width:980px) {
+  .descriptions .row{
+    display: none;
+  }
+  .maincontent{
+    display: block;
+  }
+  #search{
+    margin-right: -19%;
+  }
+  .category{
+    margin-left: 40%;
+    margin-bottom: 40px;
+
+  }
+  .categories{
+    margin-right: 25%!important;
+  }
+  .restaurant_photo{
+    margin-top: 30px;
+    margin-top: 25px;
+    margin-left: 25%;
+    height: 200px!important;
+    float: none;
+  }
+  .inf1{
+    display: inline-block;
+    float: none;
+    
+    margin-top: 10px;
+  }
+  .item{
+    text-align: center;
+    margin-top: 40px;
+  }
 }
