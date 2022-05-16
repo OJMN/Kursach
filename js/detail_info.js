@@ -18,7 +18,20 @@ $.get('https://raw.githubusercontent.com/OJMN/Kursach/master/xml/data.xml')
                         document.getElementById("img"+(indx+1)).setAttribute("src", image.text())
                     }
                 )
-                field.find("review").each()
+                document.getElementsByClassName("maincontent")[0].innerHTML = field.find("description").text()
+                document.getElementsByClassName("maincontent")[1].innerHTML += field.find("adress").text()
+                document.getElementsByClassName("maincontent")[1].innerHTML += "<br> Время работы:"
+                document.getElementsByClassName("maincontent")[1].innerHTML += field.find("work_time").text()
+
+
+                field.find("review").each(
+                    function(indx, reviews){
+                        let review = $(reviews)
+                        document.getElementsByClassName("maincontent")[2].innerHTML += "<div class='reviewdiv'>"+
+                        "<img src='"+review.find("userimg").text()+"'/><span>"+review.find("username").text()+"</span>"+
+                        "<p>"+review.find("reviewtext").text()+"</p></div>"
+                    }
+                )
             }
             
         }

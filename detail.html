@@ -47,22 +47,22 @@
       <div class="sim-slider-arrow-right"></div>
       <div class="sim-slider-dots"></div>
     </div>
-    <div class="descriptions container">
-        <input type="radio" name="dsc" id="description"><input type="radio" name="dsc" id="adress"><input type="radio" name="dsc" id="reviews">
+    <div class="descriptions">
+        <input type="radio" name="dsc" id="description" onclick="change_block()" checked="checked"><input type="radio" name="dsc" id="adress" onclick="change_block()"><input type="radio" name="dsc" id="reviews" onclick="change_block()">
         <div class="row">
             <div class="col"><label for="description">Описание</label></div>
             <div class="col"><label for="adress">Адрес и время работы</label></div>
             <div class="col"><label for="reviews">Отзывы :)</label></div>
         </div>
         <div class="contents">
-            <div class="content">
+            <div class="maincontent">
 
             </div>
-            <div class="content">
+            <div class="maincontent">
 
             </div>
-            <div class="content">
-                
+            <div class="maincontent">
+
             </div>
         </div>
 
@@ -76,5 +76,6 @@
     
     <script src="js\slider.js"></script>
     <script src="js/detail_info.js"></script>
+    <script src="js/change_block.js"></script>
   </body>
 </html>
