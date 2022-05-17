@@ -4,7 +4,7 @@
         <place>
             <id>1</id>
             <name>
-                Балконыч
+                Балкон
             </name>
             <category>
                 Азиатская кухня
@@ -71,19 +71,20 @@
                 </review>
             </reviews>
         </place>
+
         <place>
             <id>2</id>
             <name>
-                Балкон
+                Da Claudio
             </name>
             <category>
-                Азиатская кухня
+                Итальянская кухня
             </category>
             <work_time>
-                пн-чт,вс 10:00–22:00; пн-сб 10:00–23:00
+                пн-пт 12:00–23:00; сб-вс 10:00–23:00
             </work_time>
             <adress>
-                ТРЦ Галилео, ул. Бобруйская 6, Минск 220006
+                ул. Карла Маркса 25, Минск
             </adress>
             <contacts>
                 Kонтакты: 80447098888; http://cafebalkon.by/
