@@ -210,10 +210,11 @@ footer span{
     display: none;
   }
   .maincontent{
+    font-size: 30px;
     display: block;
   }
   #search{
-    margin-right: -19%;
+    margin-right: -35%;
   }
   .category{
     margin-left: 40%;
@@ -233,11 +234,34 @@ footer span{
   .inf1{
     display: inline-block;
     float: none;
-    
+    font-size: 50px!important;
     margin-top: 10px;
+  }
+  .inf1_1{
+    font-size: 25px;
   }
   .item{
     text-align: center;
     margin-top: 40px;
+  }
+  #bodyname{
+    font-size: 50px;
+  }
+  #vt{
+    font-size: 25px;
+  }
+  #st{
+    font-size: 25px;
+  }
+  .reviewdiv span{
+    font-size: 35px;
+  }
+  .reviewdiv img{
+    height: 35px!important;
+    width: 35px!important;
+    margin-left: 5%;
+  }
+  #name{
+    font-size: 25px;
   }
 }

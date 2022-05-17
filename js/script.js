@@ -22,7 +22,7 @@ $.get('https://raw.githubusercontent.com/OJMN/Kursach/master/xml/data.xml')
             '<div class="inf1_1">'+
               '<p>Время работы: '+field.find("work_time").text()+'</p><br>'+
               '<p>Адрес: ТЦ «Караван», ул. Налибокская 1, Минск 220055</p><br>'+
-                + field.find("contacts").text()+'</div><div/>'
+                 field.find("contacts").text()+'</div><div/>'
         }
     )
   })
