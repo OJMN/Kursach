@@ -21,7 +21,7 @@ $.get('https://raw.githubusercontent.com/OJMN/Kursach/master/xml/data.xml')
             '<div class="inf1"><a href="detail.html?id='+field.find("id").text()+'">'+field.find("name").text()+'<a/></div><br><br>'+
             '<div class="inf1_1">'+
               '<p>Время работы: '+field.find("work_time").text()+'</p><br>'+
-              '<p>Адрес: ТЦ «Караван», ул. Налибокская 1, Минск 220055</p><br>'+
+              '<p>Адрес: '+field.find("adress").text()+'</p><br>'+
                  field.find("contacts").text()+'</div><div/>'
         }
     )
